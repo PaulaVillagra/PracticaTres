@@ -21,7 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hola/',app1.display),
     path('hora/',app1.displayDateTime),
-    path('admin/', admin.site.urls),
     path('input/',app2.ingreseNombre),
     path('parrafo/',app2.saludito),
 ]
